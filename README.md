@@ -1,4 +1,4 @@
-# 🎓 Crypto Course Complete - Programma e Guida alla Progressione
+# 🎓 Crypto Orientamento Complete - Programma e Guida alla Progressione
 
 ---
 
