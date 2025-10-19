@@ -1,0 +1,53 @@
+graph TD
+    START["START<br/>Inizia qui"]
+    
+    M1["M1: Bitcoin & Wallet<br/>✅ ENTRY POINT<br/>Prerequisiti: NESSUNO"]
+    
+    M0["M0: Exchange<br/>Prerequisiti: M1"]
+    M4["M4: Altcoin & Portfolio<br/>Prerequisiti: M1"]
+    M6["M6: Anti-Fraud<br/>Prerequisiti: M1"]
+    M9["M9: Privacy Protocols<br/>Prerequisiti: M1"]
+    
+    M2["M2: Ethereum & Smart Contract<br/>Prerequisiti: M0 + M1"]
+    
+    M3["M3: Scaling & L2<br/>Prerequisiti: M2"]
+    M5["M5: DAO & Governance<br/>Prerequisiti: M2"]
+    
+    M8["M8: DeFi Avanzata<br/>Prerequisiti: M1 + M2 + M3 + M4"]
+    M10["M10: Intelligence On-Chain<br/>Prerequisiti: M1 + M2 + M6 + M9"]
+    
+    M11["M11: Legal & Compliance<br/>Prerequisiti: M0 + M1 + M2 + M6 + M10"]
+    
+    M7["M7: Geopolitica<br/>Prerequisiti: nessuno obbligatorio<br/>Consigliato: M1 + M2"]
+    
+    START --> M1
+    
+    M1 --> M0
+    M1 --> M4
+    M1 --> M6
+    M1 --> M9
+    
+    M0 --> M2
+    M1 --> M2
+    
+    M2 --> M3
+    M2 --> M5
+    M2 --> M10
+    
+    M1 --> M8
+    M2 --> M8
+    M3 --> M8
+    M4 --> M8
+    
+    M1 --> M10
+    M6 --> M10
+    M9 --> M10
+    
+    M0 --> M11
+    M1 --> M11
+    M2 --> M11
+    M6 --> M11
+    M10 --> M11
+    
+    M1 -.->|consigliato| M7
+    M2 -.->|consigliato| M7
