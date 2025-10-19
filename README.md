@@ -22,6 +22,7 @@
 | **M11: Legal & Compliance** | M0 + M1 + M2 + M6 + (M10) |
 
 ---
+````mermaid
 graph TD
     START["START<br/>Inizia qui"]
     
@@ -75,7 +76,7 @@ graph TD
     
     M1 -.->|consigliato| M7
     M2 -.->|consigliato| M7
----
+````
 ## 🎯 Percorsi Consigliati per Profilo
 
 ### 🔴 Hodler Conservatore (4 moduli - ~4-6 settimane)
