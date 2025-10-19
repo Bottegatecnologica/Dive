@@ -19,7 +19,7 @@
 | **M8: DeFi Avanzata** | M1 + M2 + M3 + M4 |
 | **M9: Privacy Protocols** | M1 |
 | **M10: Intelligence On-Chain** | M1 + M2 + M6 + M9 |
-| **M11: Legal & Compliance** | M0 + M1 + M2 + M6 + M10 |
+| **M11: Legal & Compliance** | M0 + M1 + M2 + M6 + (M10) |
 
 ---
 
@@ -34,11 +34,11 @@ M1 → M0 → M6 → M11
 
 ---
 
-### 🟠 DeFi Expert (7 moduli - ~8-10 settimane)
+### 🟠 DeFi Expert (8 moduli - ~10-12 settimane)
 **Obiettivo:** Padronanza totale della finanza decentralizzata
 
 ```
-M1 → M0 → M2 → M3 → M4 → M8 → M11
+M1 → M0 → M2 → M6 → M3 → M4 → M8 → M11
 ```
 
 ---
@@ -56,7 +56,7 @@ M1 → M0 → M2 → M6 → M9 → M10 → M11
 **Obiettivo:** Partecipazione attiva in governance decentralizzata
 
 ```
-M1 → M0 → M2 → M5 → M4 → M11
+M1 → M0 → M2 → M5 → M4 → M6 → M11
 ```
 
 ---
