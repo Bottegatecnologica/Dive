@@ -147,12 +147,16 @@ Questo modulo fornisce le basi operative per chi vuole iniziare a muoversi nel m
 - Come conosco le commissioni?
 - Come mai è meglio averne più di uno?
 - Come compro crypto senza passare da un Exchange?
-
+- Cos'è un ordine stop loss / take profit e come può diventare un'arma a doppio taglio?
+- Cos'è la leva, come funziona e in che modo si può ottenere?
+- Come può la leva rovinare totalmente l'investimento?
+- Cosa si intende per On-Ramp e Off-Ramp?
+- Cos'è lo slippage?
 ---
 
 ## Modulo 1 – Bitcoin e Wallet
 
-Questo modulo introduce i fondamenti di Bitcoin, la prima criptovaluta al mondo, e i concetti chiave legati alla gestione dei wallet. Si esploreranno la struttura della blockchain, la sicurezza offerta dalle chiavi crittografiche e i meccanismi che garantiscono l'immutabilità e la proprietà degli asset digitali. Sarà l'occasione per comprendere le differenze tra wallet custodial e non-custodial, la logica delle transazioni tramite UTXO, e gli strumenti avanzati come il Lightning Network per rendere le transazioni rapide e scalabili.
+Questo modulo introduce i fondamenti di Bitcoin, e i concetti chiave legati alla gestione dei wallet. Si esploreranno la struttura della blockchain, la sicurezza offerta dalle chiavi crittografiche e i meccanismi che garantiscono l'immutabilità e la proprietà degli asset digitali. Sarà l'occasione per comprendere le differenze tra wallet custodial e non-custodial, la logica delle transazioni tramite UTXO, e gli strumenti avanzati come il Lightning Network per rendere le transazioni rapide e scalabili.
 
 **Domande Chiave:**
 - Come mai la blockchain di Bitcoin è immutabile?
@@ -162,12 +166,12 @@ Questo modulo introduce i fondamenti di Bitcoin, la prima criptovaluta al mondo,
 - Cos'è una chiave privata e perché rappresenta il vero possesso di un asset digitale?
 - Quali sono i rischi di non custodire correttamente un seed?
 - Possono altre persone vedere cosa faccio on-chain? In che modo?
-- Cos'è un ordine stop loss / take profit e come può diventare un'arma a doppio taglio?
-- Cos'è la leva, come funziona e in che modo si può ottenere?
-- Come può la leva rovinare totalmente l'investimento?
 - Cos'è un UTXO e che ruolo ha nella logica delle transazioni Bitcoin?
 - Cos'è una Fork e come può avvenire?
 - Cos'è il lighting network?
+- Cos'è una Mempool
+- Cos'è una Mining Pool?
+- Cos'è un Block Explorer?
 
 ---
 
@@ -186,16 +190,15 @@ In questo modulo ci si concentra su Ethereum, la piattaforma leader per smart co
 - Gli smart contract possono essere controllati da amministratori o entità centrali? In che modo?
 - Posso ispezionare uno smart contract? Come visualizzo le funzioni e le variabili pubbliche?
 - Cos'è il liquid staking e come funziona un yield-bearing asset?
-- Cos'è un NFT e quali sono i suoi utilizzi concreti (narrow LP, collezionabile, ticket, access key, asset unici)?
+- Cos'è un NFT e quali sono i suoi utilizzi concreti (Esempio: narrow LP, collezionabile, ticket, access key, asset unici)?
 - Cos'è un Multi signature wallet, per cosa lo si usa?
-- Come funziona tecnicamente un AMM (Automated Market Maker) e la formula $x \cdot y = k$?
-- Cos'è l'Impermanent Loss e chi colpisce?
+- Come funziona tecnicamente un AMM (Automated Market Maker) e su che formula si basa?
+- Cos'è l'Impermanent Loss e chi colpisce? Quale è la controparte?
 - Qual è la differenza tra gli standard token NFT ERC-721 e ERC-1155?
 - Cosa sono i metadati di un NFT e perché è importante sapere dove sono salvati (es. on-chain vs IPFS vs server privato)?
 - Cos'è una dApp (Applicazione Decentralizzata) e come si interagisce (connettere wallet, firmare, approvare)?
-- Cosa sono gli On-Ramp e Off-Ramp?
 - Qual è la differenza tra un CEX (Centralized Exchange) e un DEX (Decentralized Exchange) in termini di rischi e benefici per l'utente?
-- Cos'è lo slippage?
+- Quali sono i diversi tipi di LP e in cosa differiscono?
 
 ---
 
@@ -220,10 +223,11 @@ Questo modulo introduce la gestione di portafogli contenenti criptovalute altern
 
 **Domande Chiave:**
 - Quando capisco che il mio portafoglio ha un rischio troppo alto?
-- Come misuro le performance delle monete alternative rispetto a Bitcoin?
+- Come misuro le performance effettive delle monete alternative?
 - Qual è la differenza tra Token e Cryptocurrency?
 - Cos'è la tokenomia e come si studia per un singolo token/cryptocurrency?
 - Storicamente quanto è stato l'apprezzamento delle altcoin (facendo media) rispetto a bitcoin?
+- Che ruolo ha la capitalizzazione di un asset nel peso di un allocazione?
 
 ---
 
@@ -238,6 +242,7 @@ Qui si esplora il mondo delle Decentralized Autonomous Organization (DAO), organ
 - Come voto per una proposta?
 - Come posso delegare il mio potere di voto?
 - Come controllo l'impatto dei voti?
+- Come partecipo all'implementazione?
 
 ---
 
@@ -252,19 +257,19 @@ Il sesto modulo si concentra sulla sicurezza e la prevenzione delle frodi nel mo
 - Cos'è un crypto drainer e come solitamente viene utilizzato?
 - Cos'è un malware wallet? Come lo evito?
 - Cos'è un seed phishing popup? Come lo evito?
-- Cosa sono le influencer-memecoins?
-- Cosa significa quando hai uno sweaper sul wallet? cosa si può fare?
+- Come le influencer-memecoin possono distruggere completamente il valore di un portafoglio?
+- Cosa significa quando hai uno sweaper-bot sul tuo wallet? cosa si può fare?
 
 ---
 
 ## Modulo 7 - Geopolitica
 
-Questo modulo esplora l'interazione tra criptovalute, la ricapitalizzazione dell'energia in eccesso, mercati predittivi e dinamiche geopolitiche. Si analizzerà come strumenti come Polymarket possano creare incentivi a far accadere eventi improbabili, influenzando le decisioni di politici o persone esposte pubblicamente. Verranno esaminati anche l'impatto di Bitcoin sull'economia globale in funzione della curva di adozione, il ruolo delle CBDC nella centralizzazione del controllo economico e le conseguenze macroeconomiche della tokenizzazione del debito sovrano.
+Questo modulo esplora l'interazione tra criptovalute, la ricapitalizzazione dell'energia in eccesso, mercati predittivi, insider trading e dinamiche geopolitiche. Si analizzerà come strumenti come Polymarket possano creare incentivi a far accadere eventi improbabili, influenzando le decisioni di politici o persone esposte pubblicamente. Verranno esaminati anche l'impatto di Bitcoin sull'economia globale in funzione della curva di adozione, il ruolo delle CBDC nella centralizzazione del controllo economico e le conseguenze macroeconomiche della tokenizzazione del debito sovrano.
 
 **Domande Chiave:**
 - In che modo si può ricapitalizzare energia in eccesso?
 - In che modo Bitcoin impatta sul sistema economico mondiale a seconda della posizione nella curva di adozione?
-- In che modo Polymarket altera il risultato della scommessa stessa? E che impatto può avere sui politici o persone visibilmente esposte.
+- In che modo Polymarket altera il risultato della scommessa stessa? E che impatto può avere sui politici o persone visibilmente esposte?
 - In che modo una CBDC può essere utilizzata per centralizzare il controllo economico a livello nazionale?
 - Quali sono le conseguenze geopolitiche della tokenizzazione degli asset del debito sovrano?
 - Qual è il legame tra inflazione globale, debito pubblico e la domanda di asset digitali scarsi come Bitcoin?
@@ -281,11 +286,11 @@ Qui si approfondiscono le strategie e i rischi della finanza decentralizzata (De
 - Cos'è un Mev bot e quali strumenti hai per leggere la logica delle loro transazioni?
 - Cos'è un flashloan, quali sono i rischi?
 - Cos'è un frontrun attack e come evito di caderne vittima?
-- Cos'è un Flashloan attack?
+- Cos'è un flashloan attack?
 - Cos'è un sandwitch attack?
 - Cosa significa Just in time liquidity?
 - Cos'è l'arbitraggio istantaneo onchain? qual è l'esempio più semplice?
-- cos'è un bot di liquidazioni sui money market? Che tipo di programma ha bisogno offchain?
+- Cos'è un bot liquidatore? Che tipo di programma ha bisogno offchain?
 - Cos'è la node latency come può impattare strategie MEV complesse?
 
 ---
@@ -295,12 +300,12 @@ Qui si approfondiscono le strategie e i rischi della finanza decentralizzata (De
 Il nono modulo esplora i protocolli per la privacy in blockchain. Si analizzeranno tecnologie come Zero-Knowledge Proof, nodi privati, privacy coins e mixer, spiegando come proteggere identità e fondi. Sarà mostrato come le transazioni possono rivelare informazioni a chi le osserva e quali strumenti sono disponibili per anonimizzare flussi di criptovalute.
 
 **Domande Chiave:**
-- Bitcoin è propriamente fungibile?
+- Bitcoin è propriamente fungibile? Motiva la tua risposta.
 - Cos'è la Zero-knowledge proof? Mi dimostri con un esempio come funziona?
 - A cosa servono i private nodes? Da cosa ti proteggono?
 - Cosa sono le privacy coins?
 - In che modo il nodo scelto per propagare la transazione sulla rete può raccogliere informazioni sulla tua transazione?
-- Cos'è un Mixer? Quali sono le euristiche principali per determinare la destinazione e/o l'origine dei fondi?
+- Cos'è un Mixer? Quali sono le euristiche principali per determinare la destinazione e/o l'origine dei fondi? Quando invece non è possibile?
 - Cos'è una transazione di coinjoin?
 
 ---
@@ -313,13 +318,17 @@ Questo modulo introduce tecniche avanzate di tracciamento e analisi on-chain, co
 - Cos'è un tracing tool?
 - Cosa significa e a cosa serve la time/amount correlation?
 - Come seguo l'origine/destinazione di alcuni fondi?
-- Come decifro la destinazione di un bridge
+- Come decifro la destinazione di un bridge se non è disponibile un explorer specifico?
 - Come decifro il comportamento di un malicious contract?
-- Come determino quando un indirizzo è di un ervizio?
+- Come determino quando un indirizzo è di un servizio?
 - In che modo posso provare a dare un attribuzione ai servizi?
+- Come riconosco un deposit address?
 - Come controllo se un indirizzo è stato blacklistato a un amministratore di un ERC20?
 - Come determino la transazione outbound da una peelchain i bitcoin?
 - Cosa vuol dire clustering? e a cosa serve?
+- Cos'è la gas trail?
+- Cos'è un OP return, che informazioni può contenere?
+- Cos'è una dimostrazione per Overflow
 
 ---
 
@@ -330,22 +339,11 @@ L'ultimo modulo affronta il quadro normativo legato alle criptovalute. Verranno 
 **Domande Chiave:**
 - Quali entità hanno legal obbligations nel caso ricevesse fondi rubati?
 - Cosa significa quando un ERC20 ha una funzione di blacklist?
-- In quali modi è possibile farli collaborare in cross giuristizioni?
-- qual'è la differenza legale tra proprietà unica e fungible che c'è in alcune giurisdizioni?
+- In quali modi è possibile far collaborare le istituzioni attraverso confini internazionali?
+- Qual'è la differenza legale tra proprietà unica e fungible?
 - Cosa si intende per KYC (Know Your Customer) e AML (Anti-Money Laundering) e perché sono richiesti dagli exchange?
 - Qual è la differenza di approccio alla regolamentazione tra l'Europa (MiCA) e gli Stati Uniti (SEC)?
 - Cos'è il "Travel Rule" e come impatta la privacy delle transazioni tra exchange?
 - Cosa succede alle crypto sequestrate?
 
 ---
-
-## ⏱️ Timeline Consigliata per Profilo
-
-| Profilo | Durata Totale | Ritmo | Moduli/Settimana |
-|---------|--------------|-------|-----------------|
-| Hodler Conservatore | 4-6 settimane | Rilassato | 1-2 |
-| DAO Contributor | 7-9 settimane | Moderato | 1-2 |
-| DeFi Expert | 8-10 settimane | Moderato | 1-2 |
-| Privacy Advocate | 9-11 settimane | Moderato | 1 |
-| Security Researcher | 10-12 settimane | Intenso | 1 |
-| Full Stack Expert | 14-18 settimane | Intenso | 1 |
