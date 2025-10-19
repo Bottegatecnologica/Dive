@@ -18,7 +18,7 @@
 | **M7: Geopolitica** | *(consigliato M1 + M2)* |
 | **M8: DeFi Avanzata** | M1 + M2 + M3 + M4 |
 | **M9: Privacy Protocols** | M1 |
-| **M10: Intelligence On-Chain** | M1 + M2 + M6 + M9 |
+| **M10: Intelligence On-Chain** | M1 + M2 + M6 + (M9) |
 | **M11: Legal & Compliance** | M0 + M1 + M2 + M6 + (M10) |
 
 ---
@@ -39,7 +39,7 @@ graph TD
     M5["M5: DAO & Governance<br/>Prerequisiti: M2"]
     
     M8["M8: DeFi Avanzata<br/>Prerequisiti: M1 + M2 + M3 + M4"]
-    M10["M10: Intelligence On-Chain<br/>Prerequisiti: M1 + M2 + M6 + M9"]
+    M10["M10: Intelligence On-Chain<br/>Prerequisiti: M1 + M2 + M6 + Consigliato M9"]
     
     M11["M11: Legal & Compliance<br/>Prerequisiti: M0 + M1 + M2 + M6 + Consigliato M10"]
     
@@ -92,30 +92,30 @@ M1 → M0 → M6 → M11
 **Obiettivo:** Padronanza totale della finanza decentralizzata
 
 ```
-M1 → M0 → M2 → M6 → M3 → M4 → M8 → M11
+M1 → M0 → M2 → M3 → M6 → M4 → M8 → M10
 ```
 
 ---
 
-### 🟡 Security Researcher (8 moduli - ~10-12 settimane)
+### 🟡 Security Researcher (9 moduli - ~13-15 settimane)
 **Obiettivo:** Analisi di sicurezza, tracciamento fondi, investigazione
 
 ```
-M1 → M0 → M2 → M6 → M9 → M10 → M11
+M1 → M0 → M2 → M3 → M6 → M8 → M9 → M10 → M11
 ```
 
 ---
 
-### 🟢 DAO Contributor (6 moduli - ~7-9 settimane)
+### 🟢 DAO Contributor (8 moduli - ~9-11 settimane)
 **Obiettivo:** Partecipazione attiva in governance decentralizzata
 
 ```
-M1 → M0 → M2 → M5 → M4 → M6 → M11
+M1 → M0 → M2 → M3 → M5 → M4 → M6 → M11
 ```
 
 ---
 
-### 🔵 Privacy Advocate (7 moduli - ~9-11 settimane)
+### 🔵 Privacy Advocate (7 moduli - ~10-12 settimane)
 **Obiettivo:** Protezione della privacy, anonimità, elusione di sorveglianza
 
 ```
@@ -124,7 +124,7 @@ M1 → M0 → M2 → M6 → M9 → M10 → M11
 
 ---
 
-### ⚫ Full Stack Expert (Completo - 12 moduli - ~14-18 settimane)
+### ⚫ Full Stack Expert (Completo - 12 moduli - ~17-19 settimane)
 **Obiettivo:** Competenza totale nel crypto ecosystem
 
 ```
