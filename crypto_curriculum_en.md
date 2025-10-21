@@ -1,4 +1,4 @@
-# 🎓 Crypto Orientamento Complete - Program and Progression Guide
+# 🎓 Crypto Orienting - Program and Progression Guide
 
 ---
 
