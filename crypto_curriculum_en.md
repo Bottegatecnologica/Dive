@@ -330,7 +330,7 @@ This module introduces advanced on-chain tracing and analysis techniques, includ
 - What is gas trail?
 - What is an OP return and what information can it contain?
 - What is overflow demonstration?
-
+- What is a nested service and how it can be identified?
 ---
 
 ## Module 11 - Legal Obligations and Requisition
