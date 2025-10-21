@@ -194,7 +194,7 @@ This module focuses on Ethereum, the leading platform for smart contracts and de
 - What is an NFT and what are its concrete uses (Example: narrow LP, collectible, ticket, access key, unique asset)?
 - What is a Multi-signature wallet, what is it used for?
 - How does an AMM (Automated Market Maker) technically work and what formula is it based on?
-- What is Impermanent Loss and who does it affect? Who is the counterparty?
+- What is Impermanent Loss and who does it affect? What is the inverse of an Impermanent Loss?
 - What is the difference between NFT token standards ERC-721 and ERC-1155?
 - What are NFT metadata and why is it important to know where they are stored (e.g., on-chain vs IPFS vs private server)?
 - What is a dApp (Decentralized Application) and how do you interact with it (connect wallet, sign, approve)?
