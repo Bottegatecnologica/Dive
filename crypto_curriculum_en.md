@@ -165,6 +165,7 @@ This module introduces Bitcoin fundamentals and key concepts related to wallet m
 - How are new Bitcoins distributed? Is there a limit?
 - What is the difference between a custodial and non-custodial wallet?
 - What is a private key and why does it represent true ownership of a digital asset?
+- How does a signature works?
 - What are the risks of not correctly storing a seed?
 - Can other people see what I do on-chain? How?
 - What is a UTXO and what role does it play in Bitcoin transaction logic?
